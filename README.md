@@ -1,2 +1,2 @@
-# shoescart
-carrito de compra PHP-MVC
+# cart
+Carrito de compras Zapatos deportivos usando PHP MVC
