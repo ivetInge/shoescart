@@ -1,0 +1,131 @@
+.textos p{
+    margin-bottom: 10px;
+  }
+  
+.container{
+    max-width: 90%;
+    margin: 60px auto;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 2px;
+    padding: 20px;
+  }
+  
+.tenis{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .imagen{
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .producto{
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  /* BOTON */
+.boton{
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.access{
+  background-color: rgb(20, 148, 20);
+}
+
+.unaccess{
+  background-color: rgb(213, 0, 0);
+}
+
+.boton:hover{
+  background-color: rgba(20, 148, 20, .5);
+}
+
+.botones{
+  display: flex;
+  align-items: center;
+}
+
+/* WISH-LIST */
+.cursor:hover{
+  cursor: auto;
+}
+/* BOTON WHISLIST */
+.wish{
+  display: inline-block;
+  width: 40px;
+  margin-left: 15px;
+}
+
+.wish img{
+  background-color: rgb(211, 23, 23);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* OFERTA */
+.oferta{
+  display: inline-block;
+  background-color: rgb(40, 185, 8);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: absolute;
+  top: 0px;
+  right: -25px;
+  transform: rotate(45deg);
+}
+
+/* MODAL */
+span{
+  font-weight: bold;
+}
+
+.modal{
+  width: 350px;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  top: 10%;
+  right: 0;
+}
+
+.producto__imagen{
+  width: 100px;
+}
+
+.producto__textos{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.modal__producto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.delete{
+  text-decoration: none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.total{
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
